@@ -763,9 +763,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 4.0,
-        "g": 4.0,
-        "b": 4.0,
+        "r": 7.129738807678223,
+        "g": 7.129738807678223,
+        "b": 7.129738807678223,
         "a": 0.0
     },
     "isMainColor": false,
@@ -945,10 +945,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1586.0001220703125,
-            "y": 126.0,
+            "x": -1803.0,
+            "y": 115.0,
             "width": 208.0,
-            "height": 315.0000305175781
+            "height": 315.0
         }
     },
     "m_Slots": [
@@ -966,7 +966,7 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     },
-    "m_Space": 2,
+    "m_Space": 4,
     "m_PositionSource": 0
 }
 
@@ -1274,7 +1274,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.10000000149011612,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1979,8 +1979,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 2.0,
-        "y": 2.0,
+        "x": 1.0,
+        "y": 0.05000000074505806,
         "z": 0.0,
         "w": 0.0
     }
@@ -2611,9 +2611,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.18785682320594788,
-        "g": 1.4027906656265259,
-        "b": 2.342684745788574,
+        "r": 0.37571364641189577,
+        "g": 2.8055813312530519,
+        "b": 4.685369491577148,
         "a": 0.0
     },
     "isMainColor": false,
@@ -2826,7 +2826,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Power",
     "m_StageCapability": 3,
-    "m_Value": 3.640000104904175,
+    "m_Value": 7.599999904632568,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
