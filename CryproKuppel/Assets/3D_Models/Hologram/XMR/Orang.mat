@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: Orang
   m_Shader: {fileID: -6465566751694194690, guid: 36b82389f02967a468234bef4465ed5b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -275,7 +275,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Base_Color: {r: 0.1878568, g: 1.402791, b: 2.342685, a: 0}
+    - _Base_Color: {r: 3.1276681, g: 0.37980136, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
