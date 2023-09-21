@@ -38,6 +38,7 @@ public class CarSpawner : MonoBehaviour
             var gap = Random.Range(minGap, maxGap);
             yield return new WaitForSecondsRealtime(gap);
             var nCar = Instantiate(car, startMarker, true);
+            nCar.transform.rotation = Quaternion.LookRotation(Vector3.Normalize(endMarker.position - startMarker.position));
             var engine = nCar.GetComponent<CarEngine>();
             engine.start = startMarker;
             engine.end = endMarker;
