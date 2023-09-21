@@ -130,11 +130,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441de713c133b2f4ab0dff1cb53fd753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMarker: {fileID: 0}
-  endMarker: {fileID: 0}
+  car: {fileID: 8892910140657646292, guid: 5b9ba2923807f254bba36d0bf2d4416d, type: 3}
+  center: {fileID: 946061725436831931}
+  startMarker: {fileID: 590843341875105870}
+  endMarker: {fileID: 5005451396977107593}
   carCount: 0
   minGap: 0
   maxGap: 0
+  printDebugInfo: 1
 --- !u!1 &7634528049977082385
 GameObject:
   m_ObjectHideFlags: 0

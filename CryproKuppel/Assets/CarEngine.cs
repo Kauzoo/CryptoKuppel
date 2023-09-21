@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
+using Quaternion = System.Numerics.Quaternion;
 using Vector3 = UnityEngine.Vector3;
 
 public class CarEngine : MonoBehaviour
@@ -11,7 +12,8 @@ public class CarEngine : MonoBehaviour
     public Transform end;
     public Vector3 startCord;
     public Vector3 endCord;
-    public float speed = 1.0f; 
+    public float speed = 1.0f;
+    public float epsilon = 1.0f;
 
     private float startTime;
     private float journeyLength;
@@ -34,6 +36,8 @@ public class CarEngine : MonoBehaviour
 
         startTime = Time.time;
         journeyLength = Vector3.Distance(startCord, endCord);
+        // Vector3 dir = Vector3.Normalize(endCord - startCord);
+        // transform.rotation.SetLookRotation(dir);
     }
 
     // Update is called once per frame
@@ -49,7 +53,8 @@ public class CarEngine : MonoBehaviour
         transform.position = Vector3.Lerp(startCord, endCord, fractionOfJourney);
         
         // Reset on end reached
-        if (transform.position == endCord)
+        
+        if (Vector3.Distance(transform.position,endCord) <= epsilon)
         {
             startTime = Time.time;
             transform.position = startCord;
